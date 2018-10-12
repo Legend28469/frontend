@@ -1,0 +1,19 @@
+.scroll {
+  height: 550px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  margin: 80px auto 50px auto;
+  background: #fff;
+  flex-direction: column;
+}
+
+.scroller {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}

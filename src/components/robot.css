@@ -1,0 +1,67 @@
+.robot {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0 20px 0;
+  border-bottom: 1px solid #e1e4e4;
+  text-align: left;
+  position: relative;
+  height: 130px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.robot span {
+  margin-left: 100px;
+}
+
+.robot img {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 100px;
+  margin: 0 20px 20px 20px;
+  height: 100px;
+}
+
+.robot p {
+  margin-left: 50px;
+  margin-top: -20px;
+}
+
+.robot span.title {
+  margin-left: -10px;
+}
+
+.robot .overflow {
+  position: absolute;
+  top: 160px;
+  left: 140px;
+}
+
+.tags {
+  margin-left: 50px;
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #efefef;
+  width: 80px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.robot .expand {
+  position: absolute;
+  font-size: 60px;
+  font-weight: 700;
+  right: 20px;
+  top: -25px;
+  color: #929191;
+}
+
+.robot .expand:hover {
+  cursor: pointer;
+  color: #000;
+}
